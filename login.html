@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VerktØyet Admin </title>
+  </head>
+
+  <body class="grey lighten-4">
+    <nav class="light-blue darken-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo ">VerktØyet</a>
+          <a href="#" data-activates='side-nav' class="button-collapse show-on-large right">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul id="side-nav" class="side-nav">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img style="min-height: 5rem" src="img/ocean.jpg" alt="">
+                </div>
+              </div>
+            </li>
+            <li>
+              <h5 class="light-blue-text">Please Log In..</h5>
+              <div href="#" class="divider orange accent-2"></div>
+            </li>
+            <li>
+              <a href="login.html" class="waves-effect">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section section-login">
+      <div class="container">
+        <div class="row">
+          <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="card-panel login light-blue darken-4 white-text center">
+              <h2>VerktØyet Login</h2>
+              <form class="" action="index.html" method="post">
+                <div class="input-field">
+                  <i class="material-icons tiny prefix left">email</i>
+                  <input id="email" type="email" name="email" value="">
+                  <label class="white-text" for="email">Email</label>
+                </div>
+                <div class="input-field">
+                  <i class="material-icons tiny prefix left">vpn_key</i>
+                  <input id="password" type="password" name="password" value="">
+                  <label class="white-text" for="password">Password</label>
+                </div>
+                <input type="submit" name="" value="Login" class="btn btn-large btn-extended white grey-text text-darken-2">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section-footer section light-blue darken-2 white-text center">
+      <p> VerktØyet Admin Copyright &copy; 1890</p>
+    </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    </script>
+    <script>
+      $('.section').hide()
+      setTimeout(function() {
+        $(document).ready(function() {
+
+          $('.section').fadeIn();
+
+          $('.loader').fadeOut();
+
+          $('.button-collapse').sideNav();
+
+          $('.modal').modal();
+
+          $('select').material_select();
+
+        });
+
+
+      }, 1000)
+    </script>
+  </body>
+
+</html>
