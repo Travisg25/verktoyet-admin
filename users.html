@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VerktØyet Admin </title>
+  </head>
+
+  <body class="grey lighten-4">
+    <nav class="light-blue darken-2">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="index.html" class="brand-logo ">VerktØyet</a>
+          <a href="#" data-activates='side-nav' class="button-collapse show-on-large right">
+            <i class="material-icons">menu</i>
+          </a>
+          <ul class="right hide-on-med-and-down">
+            <li class=""><a href="index.html">Dashboard</a> </li>
+            <li class=""><a href="posts.html">Posts</a> </li>
+            <li class=""><a href="categories.html">Categories</a> </li>
+            <li class=""><a href="comments.html">Comments</a> </li>
+            <li class="active"><a href="users.html">Users</a> </li>
+          </ul>
+          <ul id="side-nav" class="side-nav">
+            <li>
+              <div class="user-view">
+                <div class="background">
+                  <img src="img/ocean.jpg" alt="">
+                </div>
+                <a href="#">
+                  <img src="img/person1.jpg" alt="" class="circle">
+                </a>
+                <a href="#">
+                  <span class="name white-text">Thomas Shelby</span>
+                </a>
+                <a href="#">
+                  <span class="email white-text">Thomas@shelby.com</span>
+                </a>
+              </div>
+            </li>
+            <li class=""><a href="index.html"><i class="material-icons">dashboard</i> Dashboard</a> </li>
+            <li class=""><a href="posts.html">Posts</a> </li>
+            <li class=""><a href="categories.html">Categories</a> </li>
+            <li class=""><a href="comments.html">Comments</a> </li>
+            <li class="active"><a href="users.html">Users</a> </li>
+            <li>
+              <div href="#" class="divider orange accent-2"></div>
+            </li>
+            <li>
+              <a href="#" class="sub-header">Account Controls</a>
+            </li>
+            <li>
+              <a href="login.html" class="waves-effect">Logout</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="section section-users grey lighten-4">
+      <div class="container">
+        <div class="row">
+          <div class="col s12">
+            <div class="card">
+              <div class="card-content">
+                <span class="card-title">Users</span>
+                <table class="striped">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Registered</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td width="70">
+                        <img src="img/person1.jpg" alt="" class="responsive-img circle" style="width:2.2rem;margin-left:.8rem">
+                      </td>
+                      <td>Michael Shelby</td>
+                      <td>Michael@email.com</td>
+                      <td>Feb, 26 1815</td>
+                      <td><a href="" class="btn light-blue lighten-2">Details</a></td>
+                    </tr>
+                    <tr>
+                      <td width="70">
+                        <img src="img/person3.jpg" alt="" class="responsive-img circle" style="width:2.2rem;margin-left:.8rem">
+                      </td>
+                      <td>Polly Shelby</td>
+                      <td>Polly@email.com</td>
+                      <td>Sept, 26 1815</td>
+                      <td><a href="" class="btn light-blue lighten-2">Details</a></td>
+                    </tr>
+                    <tr>
+                      <td width="70">
+                        <img src="img/person2.jpg" alt="" class="responsive-img circle" style="width:2.2rem;margin-left:.8rem">
+                      </td>
+                      <td>Thomas Shelby</td>
+                      <td>Thomas@email.com</td>
+                      <td>Aug, 26 1815</td>
+                      <td><a href="" class="btn light-blue lighten-2">Details</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="card-action">
+                <ul class="pagination">
+                  <li class="disabled">
+                    <a href="" class="light-blue-text">
+                      <i class="material-icons">chevron_left</i>
+                    </a>
+                  </li>
+                  <li class="active light-blue lighten-2">
+                    <a href="" class="white-text">
+                      1
+                    </a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="light-blue-text">
+                      2
+                    </a>
+                  <li class="waves-effect">
+                    <a href="#!" class="light-blue-text">
+                      3
+                    </a>
+                  <li class="waves-effect">
+                    <a href="#!" class="light-blue-text">
+                      4
+                    </a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="light-blue-text">
+                      5
+                    </a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="light-blue-text">
+                      6
+                    </a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="light-blue-text">
+                      7
+                    </a>
+                  </li>
+                  <li class="waves-effect">
+                    <a href="#!" class="light-blue-text">
+                      <i class="material-icons">chevron_right</i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section-footer section light-blue darken-2 white-text center">
+      <p> VerktØyet Admin Copyright &copy; 1890</p>
+    </section>
+
+    <!-- Modals -->
+    <div class="fixed-action-btn">
+      <a href="#user-modal" class=" modal-trigger btn-floating btn-large orange accent-2">
+        <i class="material-icons">add</i>
+      </a>
+    </div>
+
+    <div id="user-modal" class="modal">
+      <div class="modal-content">
+        <h4>Add User</h4>
+        <form>
+          <div class="input-field">
+            <input id="name" type="text" name="" value="">
+            <label for="name ">Name</label>
+          </div>
+          <div class="input-field">
+            <input id="email" type="text" name="" value="">
+            <label for="email ">Email</label>
+          </div>
+          <div class="input-field">
+            <input id="password" type="password" name="" value="">
+            <label for="password ">Password</label>
+          </div>
+          <div class="input-field">
+            <input id="password2" type="password" name="" value="">
+            <label for="password2"> Confirm Password</label>
+          </div>
+        </form>
+        <div class="modal-footer">
+          <a href="" class="modal-action modal-close btn light-blue white-text">Submit</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Preloader -->
+    <div class="loader progress orange lighten-4">
+      <div class="orange indeterminate"></div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    </script>
+    <script>
+      $('.section').hide()
+      setTimeout(function() {
+        $(document).ready(function() {
+
+          $('.section').fadeIn();
+
+          $('.loader').fadeOut();
+
+          $('.button-collapse').sideNav();
+
+          $('.modal').modal();
+
+          $('select').material_select();
+
+        });
+
+
+      }, 1000)
+    </script>
+  </body>
+
+</html>

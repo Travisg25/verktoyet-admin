@@ -1,0 +1,23 @@
+* {
+  color: ;
+}
+
+.loader {
+  position: absolute;
+  top: 40%;
+  left: 47%;
+  width: 100px;
+  height: 10px;
+}
+
+.login {
+  margin-top: 4.3rem;
+  margin-bottom: 4.3rem;
+}
+
+.btn-extended {
+  display: block;
+  width: 80%;
+  margin: auto;
+  margin-top: 1.3rem;
+}
