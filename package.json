@@ -1,0 +1,24 @@
+{
+  "name": "admin-verktoyet",
+  "version": "1.0.0",
+  "description": "A backend layout/tool for a CMS. Monthly Visitors, Blog Posts, Comments and Users all have detailed layout.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Travisg25/verktoyet-admin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Travisg25/verktoyet-admin/issues"
+  },
+  "homepage": "https://github.com/Travisg25/verktoyet-admin",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
